@@ -249,7 +249,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -326,6 +326,7 @@ GameObject:
   - component: {fileID: 928194739}
   - component: {fileID: 928194738}
   - component: {fileID: 928194737}
+  - component: {fileID: 928194741}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -411,6 +412,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &928194741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928194736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea3a46d4d8a5330498d28958768011d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: 0d842b53ddc61e24381ed1b438b47921, type: 2}
+  - {fileID: 2100000, guid: e6a5547940351404fa9b9c60bd7fe316, type: 2}
+  - {fileID: 2100000, guid: b7701df69dfaa0941ad2acf10e311dba, type: 2}
+  - {fileID: 2100000, guid: 2cf4aa7fbaedc9c4291cfa9a0dac85f1, type: 2}
+  matAmount: 4
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
